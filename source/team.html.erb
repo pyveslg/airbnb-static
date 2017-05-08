@@ -1,0 +1,12 @@
+---
+title: Our today's team !
+---
+
+<ul class="list-inline text-center">
+  <% ["cyrielle", "py"].each do |member| %>
+    <li>
+      <%= image_tag "#{member}.jpeg", class: "avatar-large" %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
